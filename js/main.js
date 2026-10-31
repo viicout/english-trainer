@@ -20,7 +20,7 @@ async function traduzirFrase() {
 
     try {
 
-        const resposta = await fetch("http://localhost:3000/traduzir", {
+        const resposta = await fetch("/api/traduzir", {
             method: "POST",
 
             headers: {
